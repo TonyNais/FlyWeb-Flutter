@@ -38,12 +38,12 @@ jobs:
 
     - name: Install dependencies
       run: flutter pub get
-#
-#    - name: Build Android APK
-#      run: flutter build apk
 
-    - name: Build iOS App
-      run: flutter build ios
+    - name: Build Android APK
+      run: flutter build apk
+#
+#    - name: Build iOS App
+#      run: flutter build ios
 
     - name: Test App
       run: flutter test
